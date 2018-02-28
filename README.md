@@ -1,5 +1,4 @@
-# nz
-## Airport search
+# NZ - Airport search
 
 *  Meant to be an experimental, quick mockup, not particularly targeted at some user or situation
 *  Used traditional HTML/CSS/jQuery
