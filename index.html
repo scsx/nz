@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Airport Search</title>
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700" rel="stylesheet">
+<link href="assets/style-nz.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="searchbox">
+		<a href="javascript:void(0);" class="close"></a>
+		<form id="theForm">
+			<input type="text" placeholder="Type & Enter" id="searchField" autocomplete="off">
+			<button type="submit" form="form"></button>
+		</form>
+	</div>
+	
+	<header>
+		<h1>AIRPORT SEARCH</h1>
+		<div class="dropdown">
+			<span class="txt">Search results for: </span>
+			<span class="query"></span>
+			<div class="dropdown-content"></div>
+		</div>
+		<div class="mag">
+			<div id="magnifyingGlass"></div>
+		</div>
+	</header>
+	
+	<div id="map"></div>
+	
+	<div class="loading">
+		<p>Search airports from anywhere. <a href="javascript:void(0);">Start here.</a></p>
+	</div>
+	
+	<div class="resultheader initial"></div>
+	
+	<div class="maincontent initial"></div>
+	
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIEYYobH4nNmwc2cETN8e2D9Z8O3f77pQ&callback=initMap"
+async defer></script>
+	<script src="assets/main.js"></script>
+	
+	
+	
+</body>
+</html>
