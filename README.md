@@ -1,3 +1,6 @@
+# 2022
+- API down
+
 # NZ - Airport search
 
 *  Meant to be an experimental, quick mockup, not particularly targeted at some user or situation
